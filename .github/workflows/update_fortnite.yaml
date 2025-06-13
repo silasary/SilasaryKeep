@@ -1,0 +1,23 @@
+name: Update Fortnite
+on:
+  schedule:
+    - cron: '0 0 * * 3'  # Every Wednesday at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-fortnite:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+    - name: Update Fortnite
+      run: |
+        python3 scripts/update_fn.py
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update Fortnite Data"

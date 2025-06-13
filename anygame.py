@@ -41,8 +41,18 @@ class AnyGameGame(Game):
     def optional_game_constraint_templates(self) -> list[GameObjectiveTemplate]:
         return []
 
-    @functools.cached_property
     def game_objective_templates(self) -> list[GameObjectiveTemplate]:
+        return [
+        GameObjectiveTemplate(
+                label="OBJECTIVE",
+                data={"OBJECTIVE": (self.objectives, 1)},
+                is_time_consuming=False,
+                is_difficult=False,
+                weight=3,
+            ),
+        ]
+
+    def objectives(self) -> list[str]:
         return [
             "Go Through a Portal",
             "Kill Yourself 5 Times",

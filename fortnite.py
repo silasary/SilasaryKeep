@@ -65,7 +65,7 @@ class FortniteGame(Game):
 
 BR_NAMED_LOCATIONS = [
     "BRUTAL BOXCARS",
-    "MASKED MEADOWS",
+    "DEMON'S DOMAIN",
     "CANYON CROSSING",
     "RESISTANCE BASE",
     "PUMPED POWER",
@@ -78,8 +78,8 @@ BR_NAMED_LOCATIONS = [
     "FOXY FLOODGATE",
     "KAPPA KAPPA FACTORY",
     "Outlaw Oasis",
-    "SEAPORT CITY",
-    "VADER SAMURAI'S SOLITUDE",
-    "MAGIC MOSSES",
+    "UTOPIA CITY",
+    "SHOGUN'S SOLITUDE",
+    "SUPERNOVA ACADEMY",
     "Shiny Shafts",
 ]

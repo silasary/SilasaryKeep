@@ -8,7 +8,7 @@ client = fortnite_api.client.SyncClient()
 with client:
     pois = client.fetch_map()
 
-file = os.path.abspath(os.path.join(__file__, "..", "..", "fortnite.py"))
+file = os.path.abspath(os.path.join(__file__, "..", "..", "..", "fortnite.py"))
 with open(file, 'r') as f:
     tree = ast.parse(f.read())
 

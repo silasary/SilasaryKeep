@@ -22,17 +22,9 @@ class AnyGameGame(Game):
     """
 
     name = "Any Game Bingo"
-    platform = KeymastersKeepGamePlatforms.PC
+    platform = KeymastersKeepGamePlatforms.META
 
-    platforms_other = [
-        KeymastersKeepGamePlatforms.AND,
-        KeymastersKeepGamePlatforms.IOS,
-        KeymastersKeepGamePlatforms.PS4,
-        KeymastersKeepGamePlatforms.PS5,
-        KeymastersKeepGamePlatforms.SW,
-        KeymastersKeepGamePlatforms.XONE,
-        KeymastersKeepGamePlatforms.XSX,
-    ]
+    platforms_other = []
 
     is_adult_only_or_unrated = False
 

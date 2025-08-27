@@ -77,7 +77,7 @@ BR_NAMED_LOCATIONS = [
     "KAPPA KAPPA FACTORY",
     "Outlaw Oasis",
     "THE HIVE",
-    "UTOPIA CITY",
+    "DYSTOPIA CITY",
     "SHOGUN'S SOLITUDE",
     "SUPERNOVA ACADEMY",
     "Shiny Shafts",

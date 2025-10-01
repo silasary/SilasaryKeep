@@ -55,10 +55,7 @@ class FortniteGame(Game):
                 },
             ),
             GameObjectiveTemplate(
-                label="Play a MODE game",
-                data={
-                    "MODE": (self.game_mode, 1),
-                },
+                label="Play a MODE game", data={"MODE": (self.game_mode, 1)}
             ),
         ]
 
@@ -67,17 +64,12 @@ class FortniteGame(Game):
 
     def chest_count(self) -> range:
         return range(1, 4)
-    
+
     def game_mode(self):
         return MODES
 
-MODES = [
-        "Blitz",
-        "OG",
-        "Battle Royale",
-        "Zero Build",
-    ]
 
+MODES = ["Blitz", "OG", "Battle Royale", "Zero Build"]
 BR_NAMED_LOCATIONS = [
     "SWARMY STASH",
     "DEMON'S DEBRIS",

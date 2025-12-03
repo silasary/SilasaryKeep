@@ -71,13 +71,17 @@ class FortniteGame(Game):
 
 MODES = ["Blitz", "OG", "Battle Royale", "Zero Build"]
 BR_NAMED_LOCATIONS = [
-    "KAMP KRUSTY",
-    "DONUT DISTRICT",
-    "SPRINGFIELD TOWN SQUARE",
-    "CLETUS' CORN HOLE",
-    "Corruption Corners",
-    "SPRINGFIELD SLURPWORKS",
-    "EVERGREEN TERRACE",
-    "SPRINGFIELD NUCLEAR POWER PLANT",
-    "BURNS MANOR",
+    "TIPTOP TERRACE",
+    "LATTE LANDING",
+    "PAINTED PALMS",
+    "WONKEELAND",
+    "BUMPY BAY",
+    "FORE FIELDS",
+    "BATTLEWOOD BOULEVARD",
+    "HUMBLE HILLS",
+    "RIPPED TIDES",
+    "SANDY STRIP",
+    "SUS STUDIOS",
+    "CLASSIFIED CANYON",
+    "InnoLoop Labs",
 ]

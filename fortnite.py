@@ -83,5 +83,5 @@ BR_NAMED_LOCATIONS = [
     "SANDY STRIP",
     "SUS STUDIOS",
     "CLASSIFIED CANYON",
-    "InnoLoop Labs",
+    "LETHAL LABS",
 ]

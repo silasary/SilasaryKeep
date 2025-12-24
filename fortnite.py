@@ -72,6 +72,7 @@ class FortniteGame(Game):
 MODES = ["Blitz", "OG", "Battle Royale", "Zero Build"]
 BR_NAMED_LOCATIONS = [
     "TIPTOP TERRACE",
+    "CLAWSY LODGE",
     "LATTE LANDING",
     "PAINTED PALMS",
     "WONKEELAND",

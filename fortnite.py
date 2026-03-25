@@ -71,18 +71,18 @@ class FortniteGame(Game):
 
 MODES = ["Blitz", "OG", "Battle Royale", "Zero Build"]
 BR_NAMED_LOCATIONS = [
-    "TIPTOP TERRACE",
-    "CLAWSY LODGE",
+    "FRIGID FORTRESS",
     "LATTE LANDING",
     "PAINTED PALMS",
+    "TIPTOP TERRACE",
     "WONKEELAND",
-    "BUMPY BAY",
+    "SQUIBBLY SHORES",
     "FORE FIELDS",
     "BATTLEWOOD BOULEVARD",
     "HUMBLE HILLS",
     "RIPPED TIDES",
     "SANDY STRIP",
     "SUS STUDIOS",
-    "CLASSIFIED CANYON",
-    "LETHAL LABS",
+    "NEW SANCTUARY",
+    "DARK DOMINION",
 ]
